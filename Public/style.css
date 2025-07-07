@@ -12,67 +12,6 @@ body {
     color: #333;
 }
 
-/* HEADER SECTION */
-/* header {
-    background-color: #f9f9f2;
-    padding: 20px 30px;
-    border-bottom: 1px solid #e0e0e0;
-} */
-
-/* Top navigation bar */
-/* .top-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-} */
-
-/* Logo styling */
-/* .logo {
-    width: 50px;
-} */
-
-/* Navigation links */
-/* nav a {
-    margin: 0 15px;
-    text-decoration: none;
-    color: #333;
-    font-weight: 500;
-} */
-
-/* nav a:hover {
-    color: #000000;
-} */
-
-/* Navigation list for recipe pages */
-/* nav ul {
-    list-style: none;
-    display: flex;
-    gap: 30px;
-} */
-
-/* nav ul li {
-    display: inline;
-} */
-
-/* Login buttons */
-/* .Logins button {
-    margin-left: 8px;
-    padding: 6px 12px;
-    border: 1px solid #ccc;
-    background-color: white;
-    cursor: pointer;
-}
-
-.Logins .register {
-    background-color: #f7f7f7;
-}
-
-.Logins .active {
-    background-color: #f26522;
-    color: white;
-    border-color: #f26522;
-} */
-
 /* BUTTON STYLES */
 .btn {
     display: inline-block;
@@ -103,183 +42,6 @@ body {
 .btn-secondary:hover {
     background-color: rgba(0, 0, 0, 0.05);
 }
-
-/* HOMEPAGE HEADER CONTENT */
-/* .header-top {
-    text-align: center;
-    margin-top: 30px;
-}
-
-.header-top h1 {
-    font-size: 32px;
-    margin-bottom: 8px;
-}
-
-.header-top p {
-    font-size: 16px;
-    margin-bottom: 25px;
-} */
-
-/* SEARCH SECTION */
-/* .search-section {
-    padding: 50px 0;
-    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)),
-                url('/Images/searchRecipe/pattern-bg.jpg') center/cover no-repeat;
-    text-align: center;
-}
-
-.search-title {
-    font-size: 40px;
-    margin-bottom: 25px;
-    color: var(--dark);
-}
-
-.search-form {
-    display: flex;
-    max-width: 600px;
-    margin: 0 auto 30px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    overflow: hidden;
-}
-
-#recipe-search {
-    flex: 1;
-    padding: 15px;
-    border: none;
-    font-size: 16px;
-}
-
-.search-button {
-    padding: 0 25px;
-    background-color: var(--orange);
-    color: var(--white);
-    border: none;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.search-button:hover {
-    background-color: #e05b1e;
-} */
-
-/* Search filter buttons */
-/* .search-filters {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 8px;
-    margin-top: 15px;
-}
-
-.filter-btn {
-    padding: 8px 15px;
-    background-color: transparent;
-    border: 1px solid var(--gray);
-    border-radius: 20px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-
-.filter-btn:hover, 
-.filter-btn.active {
-    background-color: var(--orange);
-    color: var(--white);
-    border-color: var(--orange);
-} */
-
-/* Search bar */
-/* .search-bar {
-    display: flex;
-    justify-content: center;
-    gap: 8px;
-}
-
-.search-bar input {
-    width: 40%;
-    padding: 8px;
-}
-
-.search-bar button {
-    padding: 8px 15px;
-}
-
-.search {
-    background-color: #f0f0f0;
-}
-
-.filter {
-    background-color: #f0f0f0;
-} */
-
-/* CATEGORIES SECTION */
-/* .categories {
-    display: flex;
-    justify-content: space-around;
-    padding: 30px;
-}
-
-.cat-card {
-    text-align: center;
-    width: 28%;
-}
-
-.cat-card img {
-    width: 100%;
-    border-radius: 8px;
-    margin-bottom: 8px;
-}
-
-.cat-card p {
-    font-weight: bold;
-    font-size: 16px;
-} */
-
-/* FEATURES SECTION */
-/* .features-section {
-    display: flex;
-    align-items: center;
-    padding: 30px;
-    gap: 30px;
-}
-
-.features-section img {
-    width: 35%;
-    border-radius: 10px;
-}
-
-.features-list div {
-    margin-bottom: 15px;
-} */
-
-/* BANNER SECTION */
-/* .banner {
-    background-color: #fff0e6;
-    padding: 30px;
-    text-align: center;
-    margin-top: 30px;
-}
-
-.banner h2 {
-    font-size: 24px;
-    margin-bottom: 8px;
-}
-
-.banner p {
-    margin-bottom: 15px;
-}
-
-.banner button {
-    padding: 12px 25px;
-    background-color: #f26522;
-    color: white;
-    border: none;
-    cursor: pointer;
-    font-weight: bold;
-    border-radius: 5px;
-} */
 
 /* LOGIN/REGISTER PAGES */
 .auth-container {
@@ -476,7 +238,7 @@ body {
 
 .feedback-subtitle {
     text-align: center;
-    margin-bottom: 25px;
+    margin: 15px;
     color: #666;
 }
 
@@ -519,13 +281,29 @@ body {
 /* Thank you message */
 .thank-you {
     text-align: center;
-    padding: 30px;
+    padding: 10px;
     display: none;
 }
 
 .thank-you h2 {
     color: #f26522;
     margin-bottom: 15px;
+}
+
+/* Return home button */
+.home-btn {
+    background-color: #f26522;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 5px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    align-self: baseline;
+}
+
+.home-btn:hover {
+    background-color: #e05b1d;
 }
 
 /* RECIPE PAGES */
@@ -750,31 +528,6 @@ main {
     border-radius: 50%;
 }
 
-/* Footer */
-/* footer {
-    background-color: #333;
-    color: white;
-    padding: 30px;
-    text-align: center;
-    margin-top: 30px;
-}
-
-.footer-nav {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-}
-
-.footer-nav a {
-    color: white;
-    text-decoration: none;
-}
-
-.footer-nav a:hover {
-    color: #f26522;
-} */
-
-/* MOBILE RESPONSIVE DESIGN */
 /* MOBILE RESPONSIVE DESIGN */
 @media (max-width: 768px) {
     /* Feedback page adjustments */
